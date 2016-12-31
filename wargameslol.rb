@@ -25,6 +25,7 @@ while playagain
     puts "1..."
     sleep(1)
     puts "Goodbye #{first_name}"
+    system "clear"
     playagain = false
   else
     puts "I'm Sorry, I'm afraid I can't do that #{first_name}"
