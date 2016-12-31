@@ -25,6 +25,7 @@ while playagain
     puts "1..."
     sleep(1)
     puts "Goodbye #{first_name}"
+    sleep(2)
     system "clear"
     playagain = false
   else
