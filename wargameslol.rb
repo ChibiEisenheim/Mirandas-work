@@ -12,9 +12,18 @@ while playagain
     puts "Please select a game from the list #{first_name}...\nSuper Kaizo World\nFriday the 14th\nPaper Jocky\nGlobal Thermonuclear War"
     playagain = false
   elsif gets.chomp.downcase == "no"
-    puts "Goodbye then..."
-    sleep(5)
-    system "clear"
+    puts "This machine will self destruct in 5 seconds..."
+    puts "5..."
+    sleep(1)
+    puts "4..."
+    sleep(1)
+    puts "3..."
+    sleep(1)
+    puts "2..."
+    sleep(1)
+    puts "1..."
+    sleep(1)
+    puts "Goodbye #{first_name}"
     playagain = false
   else
     puts "I'm Sorry, I'm afraid I can't do that #{first_name}"
