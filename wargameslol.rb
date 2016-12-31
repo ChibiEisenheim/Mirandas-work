@@ -29,6 +29,6 @@ while playagain
     system "clear"
     playagain = false
   else
-    puts "I'm Sorry, I'm afraid I can't do that #{first_name}"
+    puts "I'm Sorry, I'm afraid I can't do that #{first_name}, I only understand Yes and No..."
   end
 end
